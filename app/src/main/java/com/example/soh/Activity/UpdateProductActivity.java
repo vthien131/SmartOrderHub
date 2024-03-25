@@ -106,6 +106,7 @@ public class UpdateProductActivity extends AppCompatActivity {
 //                    .centerCrop()
 //                    .fitCenter()
 //                    .into(imgChooseImage);
+
             type.setText(String.valueOf(selectedProduct.getProductType()));
             status.setText(String.valueOf(selectedProduct.getProductStatus()));
         }
